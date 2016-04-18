@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('font/mark_simonson_-_proxima_nova_regular-webfont.eot');
+    src: url('font/mark_simonson_-_proxima_nova_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/mark_simonson_-_proxima_nova_regular-webfont.woff2') format('woff2'),
+         url('font/mark_simonson_-_proxima_nova_regular-webfont.woff') format('woff'),
+         url('font/mark_simonson_-_proxima_nova_regular-webfont.ttf') format('truetype'),
+         url('font/mark_simonson_-_proxima_nova_regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_cn_ltlight';
+    src: url('font/mark_simonson_-_proxima_nova_condensed_light-webfont.eot');
+    src: url('font/mark_simonson_-_proxima_nova_condensed_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/mark_simonson_-_proxima_nova_condensed_light-webfont.woff2') format('woff2'),
+         url('font/mark_simonson_-_proxima_nova_condensed_light-webfont.woff') format('woff'),
+         url('font/mark_simonson_-_proxima_nova_condensed_light-webfont.ttf') format('truetype'),
+         url('font/mark_simonson_-_proxima_nova_condensed_light-webfont.svg#proxima_nova_cn_ltlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_cn_rgregular';
+    src: url('font/mark_simonson_-_proxima_nova_condensed_regular-webfont.eot');
+    src: url('font/mark_simonson_-_proxima_nova_condensed_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/mark_simonson_-_proxima_nova_condensed_regular-webfont.woff2') format('woff2'),
+         url('font/mark_simonson_-_proxima_nova_condensed_regular-webfont.woff') format('woff'),
+         url('font/mark_simonson_-_proxima_nova_condensed_regular-webfont.ttf') format('truetype'),
+         url('font/mark_simonson_-_proxima_nova_condensed_regular-webfont.svg#proxima_nova_cn_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
