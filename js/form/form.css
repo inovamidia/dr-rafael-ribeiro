@@ -1,0 +1,95 @@
+form {
+    max-width: 375px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+form label, form legend {
+	display:block;
+	color:#c0f;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:14px;
+	margin-bottom:2px;
+	margin-top:5px;
+	margin-left:5px;
+}
+
+label.error {
+	color:#900 !important;
+	margin-top:5px;
+	display:block;
+	margin-bottom: 22px;
+	background:none;
+}
+
+form input[type="text"], form input[type="password"], form input[type="file"], form select, form textarea {
+	border:none;
+	width:100%;
+	margin-top:23px;
+	padding: 6px;
+	display:block;
+	color: #000 !important;
+	font-weight:normal;
+	font-size:1.250em;
+	margin-bottom: 0px;
+	background: #ccc;
+	border: 1px solid #444e63;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+color: #52277c;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: #52277c;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #52277c;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #52277c;
+}
+
+form select {
+	width:99%;
+}
+
+form textarea {
+	height:150px;
+}
+
+form input[type="submit"], form input[type="button"] {
+	background: #444e63;
+	color:#fff;
+	cursor: pointer;
+	font-weight:bold;
+	padding: 4px 26px;
+	margin-top:20px;
+	font-weight:bold;
+	font-size:1.125em;
+	border:none;
+	border-radius: 8px;
+}
+
+form input[type="submit"]:hover, form input[type="button"]:hover {
+	background:#999;
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus, form textarea:focus {
+	background: #ccc;
+}
+
+form input[type="text"]:hover, form input[type="password"]:hover, form textarea:hover {
+	-moz-transition: all 600ms ease-out 0s;
+	background: #fff;
+}
+
+@media (max-width: 767px) {
+
+	form input[type="text"], form input[type="password"], form input[type="file"], form select, form textarea {
+		width:100%;
+	}
+ 
+}
+
+
